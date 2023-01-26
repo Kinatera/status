@@ -35,12 +35,6 @@ local A =
                     Text.Text =
                         " Server uptime: " ..
                         math.floor(Workspace.DistributedGameTime) ..
-                            " | Date: " ..
-                                tostring(os.date()) ..
-                                    " GameId " ..
-                                        game.PlaceId ..
-                                            " Game JobId " ..
-                                                game.JobId ..
                                                     (" Ping: " ..
                                                         ST.Network.ServerStatsItem["Data Ping"]:GetValueString(
                                                             math.round(2 / v)
