@@ -1,4 +1,4 @@
-# status-not-created-by-me
+# status
 this was not created by me, i've uploaded it to my own github incase the original gets taken down
 
 execute this:
